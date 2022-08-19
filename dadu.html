@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GAME 17 AGUSTUS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <audio id="music" loop src="lagu.mp3" autoplay> </audio>
+    <img src="./background.png" class="background">
+    <span id="pemain1" class="player1">
+        <span class="namaPemain" id="p1">Pemain 1</span>
+        <img src="./new1.png" width="300" style="left: 0%">
+    </span>
+    <span id="pemain2" class="player2">
+        <span class="namaPemain" id="p2">Pemain 2</span>
+        <img src="./new2.png" width="250" style="left: 0%"></span>
+    <span id="pemain3" class="player3">
+        <span class="namaPemain" id="p3">Pemain 3</span>
+         <img src="./new3.png" width="200" style="left: 0%"></span>
+    <div class="box" style="text-align: center;">
+        <h1>Lomba Balap Karung Hacktiv8 <br> Selamat datang para peserta balap karung!</h1>
+    </div>
+    <div class="box1" style="text-align: right;">
+        <h1 id="currentPlayer">Current Player</h1><br>
+        <h2 class="red" id="previousPlayer">Previous Player</h2>
+        <h2 class="red" id="scorePlayer">Skor Player</h2>
+    </div>
+
+    <!-- current player: -->
+    <div class="tombol">
+        <button onclick="lemparDadu()">Lempar dadu!</button>
+        <button onclick="gantiPemain()">Ganti Pemain</button>
+    </div>
+    <!-- <p>Klik tombol berikut untuk melempar dadu:</p> -->
+
+    <p id="demoDadu"></p>
+    <p id="dadu" style="display: none"></p>
+
+    <ul id="list"></ul>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
+

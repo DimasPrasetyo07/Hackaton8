@@ -1,0 +1,99 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box {
+    width: 69%;
+    display: inline-block;
+}
+
+.box1 {
+    width: 30%;
+    display: inline-block;
+}   
+
+.background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.player1 {
+    position: absolute;
+    bottom: 37%;
+}
+
+.player2 {
+    position: absolute;
+    bottom: 15%;
+}
+
+.player3 {
+    position: absolute;
+    bottom: 0   ;
+}
+
+.tombol {
+    text-align:right;
+    z-index: 100;
+    position: relative;
+}
+
+.lintasan {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.lintasan span {
+    position: relative;
+    
+}
+ul {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: x-large;
+    position: absolute;
+    list-style-type: none;
+    top:0px;
+    right: 400px;
+
+}
+
+ul li {
+    font-weight: bold;
+}
+
+.namaPemain {
+    position: absolute;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
